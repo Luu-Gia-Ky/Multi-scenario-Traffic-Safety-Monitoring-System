@@ -1,0 +1,21 @@
+_pycache_ (thư mục lưu file.pnc {phát hiện xe, báo cáo , đếm ,...})
+accident_images (thư mục lưu ảnh tai nạn xuất hiện )
+No_helmet_images (thư mục lưu ảnh không đội nón bảo hiểm)
+outputvideo (thư mục lưu video sao khi chạy các chức năng)
+parking_detections (thư mục lưu ảnh bãi xe trống)
+pdf_report (thư mục lưu báo cáo)
+video_mp4 (thư mục lưu video để test {xóa cũng đc không lỗi})
+
+giaodien.py (phần main , giao diện app)
+accident_detector.py (class chức năng nhận diện tai nạn)
+helmet.py (class chức năng nhận diện mũ bảo hiểm và ko mũ bảo hiểm)
+parking_space_detector.py (class chức năng nhận diện bãi xe có chỗ trống)
+report_generator.py (class viết file báo cáo)
+vehicle_tracker.py (class nhận diện phương tiện và đếm số lượng)
+
+mô hình để nhận diện vật thể
+yolov8_accident_model.pt (tai nạn)
+yolov8_helmet_model2.pt (có mũ bảo hiểm)
+yolov8_no_helmet_model.pt (không mũ bảo hiểm)
+yolov8_parkingspace_detectorv2.pt (chỗ đậu xe trống)
+yolov8n.pt (phương tiện giao thông)
