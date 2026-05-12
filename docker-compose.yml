@@ -1,0 +1,9 @@
+services:
+  traffic-safety-web:
+    build: .
+    container_name: traffic_safety_web
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    # Không cần cấu hình DISPLAY nữa vì chạy trên trình duyệt
